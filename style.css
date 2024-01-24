@@ -11,67 +11,90 @@
 
 body {
     background-color: black;
+    padding: 16px;
 }
 
-.navegacao, .sua-biblioteca {
-    background-color: #111;
-    padding: 10px;
-    margin: 20px;
-    max-width: 30vw;
-    min-width: 300px;
-    border-radius: 8px;
+.navebar, .library {
+    background-color: #101010;
+    width: 350px;
+    padding: 16px;
+
+    border-radius: 2px;
 }
 
-.logo {
-    width: 150px;
-    margin-bottom: 4px;
+.navebar .navebar__img {
+    max-width: 150px;
+    margin-bottom: 24px;
 }
 
-.navegacao > ul {
-    margin-left: 10px;
+.navebar .navebar__list li:first-child {
+    margin-bottom: 12px;
 }
 
-.navegacao > ul > li {
-    padding: 8px;
-    margin-bottom: 2px;
-    font-weight: bold;
+.library {
+ margin-top: 24px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
 }
 
-.navegacao > ul > li > a {
-    margin-left: 8px;
-}
+.library__header {
+    padding-right: 8px;
 
-.sua-biblioteca > .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    justify-content: space-between;
+    gap: 4px;
 }
 
-.sua-biblioteca > .main {
-    background-color: #505050;
+.library__header h2{
+    font-size: medium;
+}
+
+.library__header h2 > span {
+    margin-right: 8px;
+}
+
+.library__playlist {
+    background-color: #252525;
+    padding: 16px 24px;
+
     border-radius: 8px;
-    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.sua-biblioteca > .main > h2 {
-    margin-bottom: 8px;
+.library__playlist h2{
+    font-size: larger;
 }
 
-.sua-biblioteca > .main > h3 {
-    margin-bottom: 18px;
-}
-
-.sua-biblioteca > .footer {
-    margin-top: 16px;
-}
-
-button {
+.library__playlist button {
     padding: 8px;
-    color: #333;
-    font-weight: bold;
-    font-size: large;
-    background-color: white;
+    margin-top: 16px;
+    max-width: 150px;
+
+    background-color: #fff;
+    color: #101010;
+    font-weight: 900;
+
     border: none;
+    border-radius: 16px;
+}
+
+.library__language {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.library__language button {
+    max-width: 200px;
+    padding: 8px;
+    max-width: 200px;
+
+    background-color: #101010;
+    border: 2px solid #fff;
     border-radius: 16px;
 }

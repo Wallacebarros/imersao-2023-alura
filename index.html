@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Imerção Front-end | Aula 1</title>
+    <title>Imerção Front-end | Aula 2</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
     integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head> 
 <body>
-    <nav class="navegacao">
-        <img class="logo" src="assets/logo-spotify.png" alt="Logo">
-        <ul>
+    <nav class="navebar">
+        <img class="navebar__img" src="assets/logo-spotify.png" alt="Logo">
+        <ul class="navebar__list">
             <li>
                 <label for="inicio"><span class="fa fa-home"></span></label>
                 <a id="inicio" href="#">Início</a>
             </li>
-            <li><label for="buscar"><span class="fa fa-search"></span></label>
-                <a id="buscar" href="#">Buscar</a></li>
+            <li>
+                <label for="buscar"><span class="fa fa-search"></span></label>
+                <a id="buscar" href="#">Buscar</a>
+            </li>
         </ul>
     </nav>
 
-    <div class="sua-biblioteca">
-        <div class="header">
-            <span class="fa fa-book"></span>
-            <h2>sua biblioteca</h2>
+    <section class="library">
+        <div class="library__header">
+            <h2><span class="fa fa-book"></span> sua biblioteca</h2>
             <span class="fa fa-plus"></span>
         </div>
-        <div class="main">
+        <div class="library__playlist">
             <h2>crie sua primeira playlist</h2>
-            <h3>e facil vamos te ajudar</h3>
+            <span>e fácil, vamos te ajudar.</span>
             <button>Criar playlist</button>
         </div>
-        <div class="footer">
+        <div class="library__language">
+            <samp>cokes</samp>
             <button>Português do Brasil</button>
         </div>
-    </div>
+    </section>
 </body>
 </html>
