@@ -1,8 +1,6 @@
 body {
     background-color: black;
     color: white;
-    
-    padding: 16px;
 
     font-family: sans-serif; 
 }
@@ -12,6 +10,7 @@ body {
     width: 33vw;
     min-width: 250px;
     padding: 16px;
+    margin: 16px;
 
     border-radius: 2px;
 }
@@ -93,5 +92,37 @@ body {
 
     background-color: #101010;
     border: 2px solid #fff;
+    border-radius: 16px;
+}
+
+.footer {
+    background-image: var(--color-gradient);
+
+    padding: 16px;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-text h2, .footer-text p{
+    font-size: 12px;
+}
+
+.footer button {
+    padding: 8px;
+    max-width: 150px;
+
+    font-size: 12px;
+
+    background-color: #fff;
+    color: #101010;
+    font-weight: 900;
+
+    border: none;
     border-radius: 16px;
 }
