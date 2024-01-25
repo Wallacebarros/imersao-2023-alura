@@ -7,10 +7,13 @@ body {
 
 .navebar, .library {
     background-color: var( --color-black-100);
-    width: 33vw;
-    min-width: 250px;
+    width: 310px;
     padding: 16px;
-    margin: 16px;
+    
+    margin-left: 16px;
+    margin-top: 16px;
+
+    position: absolute;
 
     border-radius: 2px;
 }
@@ -25,9 +28,9 @@ body {
 }
 
 .library {
- margin-top: 16px;
- display: flex;
- flex-direction: column;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
 }
 
 .library__header {
@@ -120,7 +123,7 @@ body {
     font-size: 12px;
 
     background-color: var( --color-white);
-    color: var( --color-white);
+    color: var( --color-black-100);
     font-weight: 900;
 
     border: none;

@@ -1,0 +1,46 @@
+.main-content__header {
+    background-color: var(--color-black-100);
+
+    padding: 16px;
+    margin-left: 380px;
+    margin-right: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content__header button:nth-child(1), .main-content__header button:nth-child(2) {
+    background-color: var(--color-black-primary);
+    padding: 4px 10px;
+
+    border: none;
+    border-radius: 24px;
+}
+
+.main-content__header input {
+    background-color: var(--color-black-200);
+
+    padding: 8px;
+    width: 25vw;
+
+    border: none;
+    border-radius: 16px;
+}
+
+.main-content__header input::before {
+    content: 'P ';
+}
+
+.main-content__header button:last-child {
+    background-color: var(--color-white);
+    color: var(--color-black-100);
+
+    padding: 8px 16px; 
+    margin: 2px;
+
+    border: none;
+    border-radius: 16px;
+}
+
+
