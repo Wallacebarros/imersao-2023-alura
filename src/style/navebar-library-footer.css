@@ -1,12 +1,12 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: var( --color-black-primary);
+    color: var( --color-white);
 
     font-family: sans-serif; 
 }
 
 .navebar, .library {
-    background-color: #101010;
+    background-color: var( --color-black-100);
     width: 33vw;
     min-width: 250px;
     padding: 16px;
@@ -49,7 +49,7 @@ body {
 }
 
 .library__playlist {
-    background-color: #252525;
+    background-color: var( --color-black-200);
     padding: 16px 24px;
 
     border-radius: 8px;
@@ -68,8 +68,8 @@ body {
     margin-top: 16px;
     max-width: 150px;
 
-    background-color: #fff;
-    color: #101010;
+    background-color: var(--color-white);
+    color: var( --color-black-100);
     font-weight: 900;
 
     border: none;
@@ -90,8 +90,8 @@ body {
     padding: 8px;
     max-width: 200px;
 
-    background-color: #101010;
-    border: 2px solid #fff;
+    background-color: var( --color-black-100);
+    border: 2px solid var( --color-white);
     border-radius: 16px;
 }
 
@@ -119,8 +119,8 @@ body {
 
     font-size: 12px;
 
-    background-color: #fff;
-    color: #101010;
+    background-color: var( --color-white);
+    color: var( --color-white);
     font-weight: 900;
 
     border: none;
