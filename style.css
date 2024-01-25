@@ -16,7 +16,8 @@ body {
 
 .navebar, .library {
     background-color: #101010;
-    width: 350px;
+    width: 33vw;
+    min-width: 250px;
     padding: 16px;
 
     border-radius: 2px;
@@ -32,14 +33,14 @@ body {
 }
 
 .library {
- margin-top: 24px;
+ margin-top: 16px;
  display: flex;
  flex-direction: column;
- gap: 16px;
 }
 
 .library__header {
     padding-right: 8px;
+    margin-bottom: 16px;
 
     display: flex;
     align-items: center;
@@ -86,7 +87,10 @@ body {
 .library__language {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+}
+
+.library__language span {
+    padding: 16px 0;
 }
 
 .library__language button {
