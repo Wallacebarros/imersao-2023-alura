@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+    .main-content__list-cards__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-content__list-cards__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
